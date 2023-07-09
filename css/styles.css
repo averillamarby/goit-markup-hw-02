@@ -169,20 +169,12 @@ body{
     color: var(--whitecolor);
     width: 265px;
     height: 70px;
-    
+
 }
 
 /* Portfolio Page */
-
-
 /* Buttons */
-.button1 {
-    background-color: red;
-}
-
-/* Button Text */
-
-.btn1.portfolio {
+.btn-group button {
     color: royalblue;
     font-size: 16px;
     cursor: pointer;
@@ -192,24 +184,20 @@ body{
    
 }
 
-.btn1.portfolio:hover,
-.btn1.portfolio:focus {
-    background-color: blue;
+/* Add a background color on hover */
+.btn-group button:hover,
+.btn-group button:focus {
     color: var(--whitecolor);
-}
-
-/* .btn { */
-.btn1 {
-    cursor: pointer;
-    border-color: transparent;
-    letter-spacing: 0.64cm;
+    background: var(--oceancolor);
 }
 
 
-.btn.portfolio {
-    background-color: var(--oceancolor);
-    color: white;
-    font-weight: 800;
+
+
+.btn-group button {
+    background-color: var(--cloud);
+    color: var(--iriscolor);
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.05cm;
 }
@@ -225,7 +213,7 @@ body{
     font-weight: 400;
 }
 
-/* Section 3 & 4 section title*/
+/* Section 1*/
 .sectiontitle2 {
     text-align: center;
     color: var(--navyblue);
