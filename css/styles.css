@@ -3,7 +3,7 @@
 :root {
     --iriscolor: #4D5AE5;
     --navyblue: #2E2F42;
-    --oceancolor: #2196f3;
+    --oceancolor: #404bb4;
     --whitecolor: white;
     --slate: #434455;
     --cloud: #F4F4FD;
@@ -23,11 +23,12 @@ body {
 }
 
 .logo-link>span {
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .logo,
-.studio {
+.studio 
+.studio-footer {
     color: var(--iriscolor);
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
@@ -44,7 +45,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -92,6 +93,8 @@ body {
     border-color: transparent;
     letter-spacing: 0.03em;
     font-family: inherit;
+    border-radius: 4px;
+    
 }
 
 .button.primary {
@@ -100,6 +103,8 @@ body {
     font-weight: 800;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    font-size: 16px;
+    
 
 }
 
@@ -121,6 +126,7 @@ body {
 .benefits .description {
     color: var(--slate);
     line-height: 1.71;
+    font-size: 16px;
 
 }
 
@@ -142,13 +148,16 @@ body {
 .team .name,
 .team .position {
     color: var(--navyblue);
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    font-weight: 500;
 }
 
 .team .position {
     color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .page-footer.bg-footer {
